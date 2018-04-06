@@ -1,0 +1,7 @@
+graphviz==0.8.2
+jupyter==1.0.0
+Keras==2.1.5
+pydot==1.2.4
+scikit-learn==0.19.1
+scipy==1.0.0
+tensorflow==1.6.0
