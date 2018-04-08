@@ -1,5 +1,5 @@
 
-conda create -n madpy-dl python=3
+conda create -n madpy-dl python=3 graphviz==0.8.2
 source activate madpy-dl
 
 pip install -r requirements.txt
