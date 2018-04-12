@@ -1,5 +1,6 @@
+set -e
 
-conda create -n madpy-dl numpy==1.14.2 scipy==1.0.1 scikit-learn==0.19.1 keras-gpu==2.1.5 tensorflow-gpu==1.4.1 graphviz==2.38.0
+conda create -n madpy-dl python=3.6 numpy==1.14.2 scipy==1.0.1 scikit-learn==0.19.1 keras-gpu==2.1.5 tensorflow-gpu==1.4.1 graphviz==2.38.0
 source activate madpy-dl
 
 pip install -r requirements.txt
